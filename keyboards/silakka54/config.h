@@ -28,3 +28,16 @@
 #define SPLIT_USB_TIMEOUT_POLL 10
 #define SPLIT_WATCHDOG_ENABLE
 #define SPLIT_WATCHDOG_TIMEOUT 3000
+
+
+// sm_td option
+#define MAX_DEFERRED_EXECUTORS 10
+
+
+// qmk option
+#define TAPPING_TERM 280
+#define QUICK_TAP_TERM 175
+#define FLOW_TAP_TERM 150
+
+#define CHORDAL_HOLD
+#define PERMISSIVE_HOLD
